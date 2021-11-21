@@ -1,0 +1,42 @@
+.contact__heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact__form {
+  background-color: $colour-secondary;
+  box-shadow: 0 12px 18px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
+
+.btn.btn-submit {
+  background-color: $colour-text-secondary;
+  color: $colour-white;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: larger;
+}
+
+.col__icons {
+  display: flex;
+  justify-content: right;
+}
+
+.container__adress {
+  margin-top: 7rem;
+}
+
+.row__adress {
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  .contact__row {
+    flex-direction: column-reverse;
+  }
+
+  .container__adress {
+    margin-top: 7rem;
+    margin-left: -3rem;
+  }
+}

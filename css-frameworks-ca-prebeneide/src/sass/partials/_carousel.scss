@@ -1,0 +1,20 @@
+.carousel-indicators button {
+  border-radius: 22%;
+
+  @media only screen and (max-width: 600px) {
+    width: 17px !important;
+    height: 17px !important;
+  }
+}
+
+.carousel-indicators .active {
+  background-color: $colour-primary;
+}
+
+.carousel-control-prev-icon {
+  display: none;
+}
+
+.carousel-control-next-icon {
+  display: none;
+}

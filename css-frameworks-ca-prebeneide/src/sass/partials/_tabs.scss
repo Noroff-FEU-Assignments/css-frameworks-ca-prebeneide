@@ -1,0 +1,27 @@
+.tab-content {
+  background-color: white;
+  padding: 1em;
+  min-height: 200px;
+  border-radius: 0 12px 12px 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  margin-top: -16px;
+  border: 1px solid $colour-border-grey;
+}
+
+.tab-content__share-icons {
+  color: $colour-text-primary;
+  margin-top: 3rem;
+}
+
+.tab-content__share-icons .fab {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-item .nav-link {
+  color: $colour-primary;
+}

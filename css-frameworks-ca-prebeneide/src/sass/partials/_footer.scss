@@ -1,0 +1,16 @@
+footer {
+  flex-shrink: 0;
+  background: $colour-white;
+  color: $colour-text-secondary;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  margin-top: 5rem;
+}
+
+footer .fab {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}

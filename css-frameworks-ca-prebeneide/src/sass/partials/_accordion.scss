@@ -1,0 +1,19 @@
+.accordion {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-collapse.collapse.show {
+  border-top: 1px solid $colour-primary;
+}
+
+.accordion__image {
+  width: 300px;
+}
+
+.accordion-body {
+  text-align: center;
+}

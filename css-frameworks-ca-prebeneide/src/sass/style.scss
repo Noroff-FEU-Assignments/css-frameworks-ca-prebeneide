@@ -1,0 +1,90 @@
+// custom
+$colour-secondary: #efefef;
+$colour-primary: #e92569;
+
+$colour-white: #ffffff;
+
+$colour-text-primary: #0a0a0a;
+$colour-text-secondary: #767676;
+
+$colour-input-website-grey: #c7c7c7;
+
+$colour-border-grey: #dee2e6;
+$colour-nav-bar: #f8f5f5;
+
+// bootstrap
+
+$theme-colors: (
+  "primary": $colour-primary,
+  "light": $colour-secondary,
+);
+
+$input-bg: $colour-white;
+$input-placeholder-color: $colour-text-secondary;
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: $colour-primary;
+
+$body-bg: $colour-secondary;
+$body-color: $colour-text-secondary;
+
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-light-brand-color: $colour-primary;
+$navbar-light-brand-hover-color: $colour-primary;
+$navbar-light-color: $colour-text-primary;
+$navbar-brand-margin-end: 3rem;
+
+// $nav-link-color: $colour-primary;
+// $nav-link-hover-color: $colour-text-secondary;
+
+$nav-tabs-link-active-color: $colour-text-secondary;
+$nav-tabs-link-active-bg: $colour-white;
+
+// Carousel
+
+$carousel-indicator-width: 40px;
+$carousel-indicator-height: 40px;
+$carousel-indicator-opacity: 1;
+$carousel-indicator-active-bg: $colour-white;
+$carousel-indicator-spacer: 10px;
+
+// Accordion
+
+$accordion-bg: $colour-white;
+$accordion-color: $colour-primary;
+$accordion-button-active-bg: $colour-white;
+$accordion-button-active-color: $colour-primary;
+$accordion-border-radius: 10px;
+
+//Buttons
+
+$input-btn-font-size: 13px;
+
+//Cards
+
+$card-bg: $colour-white;
+$card-border-width: 0;
+$card-color: $colour-text-secondary;
+
+//Form
+
+$input-border-width: 0;
+$form-check-input-bg: $colour-primary;
+$form-check-input-border: 2px solid $colour-primary;
+$form-check-input-checked-color: $colour-primary;
+$form-check-input-checked-bg-color: $colour-white;
+$form-check-input-checked-border-color: $colour-primary;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./partials/tabs";
+@import "./partials/navbar";
+@import "./partials/carousel";
+@import "./partials/maininformation";
+@import "./partials/typography";
+@import "./partials/accordion";
+@import "./partials/footer";
+@import "./partials/layout";
+@import "./partials/news";
+@import "./partials/contact";

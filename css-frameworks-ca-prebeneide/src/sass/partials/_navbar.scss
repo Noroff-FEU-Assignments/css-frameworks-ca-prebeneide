@@ -1,0 +1,32 @@
+.navbar-brand {
+  font-family: $headings-font-family;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.btn-go-small-pink {
+  background-color: $colour-primary;
+  color: $colour-white;
+  border-radius: 0 5px 5px 0;
+  margin-left: -12px;
+}
+
+.me-2.form-control {
+  border: 1px solid $colour-white;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  border-radius: 3px;
+  color: $colour-text-primary;
+  padding-left: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+  background-color: $colour-white;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: $colour-nav-bar !important;
+}
